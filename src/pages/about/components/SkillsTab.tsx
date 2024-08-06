@@ -11,7 +11,12 @@ import {
   SiVercel,
   SiReact,
   SiGit,
+  SiC,
+  SiCplusplus,
+  SiSpring,
+  SiSpringboot,
 } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 
 const SkillsTab = () => {
   return (
@@ -21,15 +26,15 @@ const SkillsTab = () => {
           Programming Languages
         </p>
         <div
-          className="grid grid-cols-4 text-2xl md:text-3xl 
+          className="grid grid-cols-6 text-2xl md:text-3xl 
         lg:text-5xl gap-5  md:gap-10"
         >
+          <SiC color="black"></SiC>
+          <SiCplusplus color="black"></SiCplusplus>
           <SiJavascript color="black" className="" />
           <SiTypescript color="black" className="" />
-          <h1 className="text-sm md:text-xl lg:text-2xl text-black font-bold flex items-center justify-center">
-            C/C++
-          </h1>
           <SiPython color="black" className="" />
+          <FaJava color="black"></FaJava>
         </div>
       </div>
       <div>
@@ -52,6 +57,8 @@ const SkillsTab = () => {
           className="flex justify-between items-center text-2xl md:text-3xl 
           lg:text-5xl w-full md:gap-10 text-black font-bold"
         >
+          <SiSpring color="black"></SiSpring>
+          <SiSpringboot color="black"></SiSpringboot>
           <SiReact color="black" className="" />
           <SiNextdotjs color="black" className="" />
           <SiGit color="black" className="" />

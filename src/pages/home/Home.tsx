@@ -22,7 +22,7 @@ export default function Home() {
         Hi, I'm Dallas
       </h1>
       <h1 className="text-3xl md:text-4xl text-blue-600 font-bold mt-10 mb-20">
-        Frontend Developer
+        Fullstack Developer
       </h1>
       <div className="grid grid-cols-2 grid-rows-2 gap-20 md:flex justify-around">
         {icons.map((icon, key) => (
