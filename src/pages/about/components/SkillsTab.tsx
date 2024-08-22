@@ -2,7 +2,6 @@ import {
   SiPython,
   SiCss3,
   SiHtml5,
-  SiNextdotjs,
   SiJavascript,
   SiTypescript,
   SiTailwindcss,
@@ -19,7 +18,9 @@ import {
   SiEslint,
   SiPrettier,
   SiMysql,
-  SiPostgresql,
+  SiHeroku,
+  SiNodedotjs,
+  SiExpress,
 } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 
@@ -39,9 +40,8 @@ const SkillsTab = () => {
           <SiJavascript color="black" title="JavaScript" className="" />
           <SiTypescript color="black" title="TypeScript" className="" />
           <SiPython color="black" title="Python" className="" />
-          <FaJava color="black" title="Java"></FaJava>
-          <SiMysql color="black" title="MySQL"></SiMysql>
-          <SiPostgresql color="black" title="PostgreSQL"></SiPostgresql>
+          <FaJava color="black" title="Java" />
+          <SiMysql color="black" title="MySQL" />
         </div>
       </div>
       <div>
@@ -58,11 +58,13 @@ const SkillsTab = () => {
         <p className="text-blue-600 text-center text-lg md:text-2xl my-7">
           Libraries and Frameworks
         </p>
-        <div className="grid grid-cols-5 gap-8 md:gap-12 text-2xl md:text-3xl lg:text-5xl">
-          <SiSpring color="black" title="Java Spring"></SiSpring>
-          <SiSpringboot color="black" title="Spring Boot"></SiSpringboot>
+        <div className="grid grid-cols-6 gap-8 md:gap-12 text-2xl md:text-3xl lg:text-5xl">
           <SiReact color="black" title="React.js" className="" />
-          <SiNextdotjs color="black" title="Next.js" />
+          <SiNodedotjs color="black" title="Node.js" className="" />
+          <SiExpress color="black" title="Express.js" />
+          <SiSpring color="black" title="Java Spring" />
+          <SiSpringboot color="black" title="Spring Boot" />
+
           <SiTailwindcss color="black" title="Tailwind CSS" />
         </div>
       </div>
@@ -71,10 +73,12 @@ const SkillsTab = () => {
           Technologies
         </p>
 
-        <div className="grid grid-cols-6 gap-6 md:gap-12 text-2xl md:text-3xl lg:text-5xl">
+        <div className="grid grid-cols-7 gap-6 md:gap-12 text-2xl md:text-3xl lg:text-5xl">
           <SiGit color="black" title="Git" className="" />
-          <SiVite color="black" title="Vite" className="" />
           <SiVercel color="black" title="Vercel" />
+          <SiHeroku color="black" title="Heroku" />
+          <SiVite color="black" title="Vite" className="" />
+
           <SiEslint color="black" title="ESLint" />
           <SiPrettier color="black" title="Prettier" />
           <SiLatex color="black" title="LaTeX" className="" />
