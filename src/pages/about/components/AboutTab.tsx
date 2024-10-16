@@ -1,6 +1,6 @@
 const AboutTab = () => {
   return (
-    <div className="flex items-center justify-center h-full p-5">
+    <div className="flex items-center justify-center h-full p-2 md:p-5">
       <p className="text-black text-sm md:text-md lg:text-lg leading-relaxed max-w-2xl">
         Hi, I'm Dallas, a recent MSU graduate who studied Mathematics and
         Computer Science and now specializes in fullstack web development. I

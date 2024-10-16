@@ -64,8 +64,7 @@ const Contact = () => {
             placeholder="Your email..."
             className="h-14 w-72 md:h-20 md:w-96 p-3 rounded-3xl my-5"
           />
-          <input
-            type="text"
+          <textarea
             name="message"
             placeholder="Your message..."
             className="h-64 w-72 md:w-96 p-3 rounded-3xl my-5"
