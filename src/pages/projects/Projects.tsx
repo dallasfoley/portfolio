@@ -62,7 +62,7 @@ const Projects = () => {
             />
             <div
               className="flex flex-col justify-around items-center rounded-2xl mx-4
-              sm:w-36 sm:h-36 md:w-48 md:h-48 lg:w-64 lg:h-64 mt-5 md:mt-10 lg:mt-15 p-2 bg-white opacity-90 shadow-lg"
+              sm:w-64 sm:h-64 md:w-64 md:h-64 lg:w-72 lg:h-72 mt-5 md:mt-10 lg:mt-15 p-2 bg-white opacity-90 shadow-lg"
               style={{
                 backgroundColor: "rgba(255, 255, 255, 0.1)",
                 boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
