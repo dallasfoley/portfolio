@@ -12,7 +12,7 @@ const URLs = [
     "https://github.com/dallasfoley/Pokedol",
     "/poke2.png",
     "Pokedol",
-    "React.js, TypeScript, Node/Express.js, MySQL",
+    "React.js, TypeScript, Node/Express.js, PostgreSQL",
     "https://pokedol.vercel.app/",
   ],
   [
@@ -24,9 +24,10 @@ const URLs = [
   ],
   [
     "https://github.com/dallasfoley/Calculator",
-    "/calc.png",
+    "/calculator.png",
     "Calculator",
-    "React.js, TypeScript, Vite, CSS",
+    "React.js, TypeScript, CSS",
+    "https://calculadora-nine-pi.vercel.app/",
   ],
   [
     "https://github.com/dallasfoley/ActionSudokuGame",
